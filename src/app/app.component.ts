@@ -7,6 +7,6 @@ import { WebsocketService } from './service/websocket.service';
 })
 export class AppComponent {
   public isOnline: boolean = false;
-  title = 'EXAMEN';
+  title = 'prueba2';
   constructor(public webSocket: WebsocketService) {}
 }
